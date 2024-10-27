@@ -6,9 +6,10 @@ const Date = () => {
             <div className=" bg-base-100">
                 <div className="flex-1 navbar customDiv">
                     <div className="join">
-                        <input className="join-item btn" type="radio" name="options" aria-label="Radio 1" />
-                        <input className="join-item btn" type="radio" name="options" aria-label="Radio 2" />
-                        <input className="join-item btn" type="radio" name="options" aria-label="Radio 3" />
+                        <input className="join-item btn" type="radio" name="options" aria-label="12 months" />
+                        <input className="join-item btn" type="radio" name="options" aria-label="30 days" />
+                        <input className="join-item btn" type="radio" name="options" aria-label="7 days" />
+                        <input className="join-item btn" type="radio" name="options" aria-label="24 hours" />
                     </div>
                 </div>
                 <div className="flex-none gap-0 md:gap-2">
