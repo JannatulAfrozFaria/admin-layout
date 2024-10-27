@@ -4,7 +4,7 @@ const PendingTasks = () => {
         <div className="customDiv">
         <div className="flex justify-between">
             <div>
-                <p className="font-bold">Revenue 600 AED</p>
+                <p className="font-bold">Pending Tasks</p>
             </div>
             <div className="dropdown dropdown-bottom dropdown-end">
                 <div tabIndex={0} role="button" className=" m-1"><BsThreeDotsVertical /></div>
