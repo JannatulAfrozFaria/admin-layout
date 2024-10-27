@@ -1,24 +1,41 @@
-
+import { useState } from "react";
 
 const Date = () => {
+    const [activeTab, setActiveTab] = useState("30 days");
+
+    // Array of tab text
+    const tabTexts = ["12 months", "30 days", "7 days", "24 hours"];
+
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);   
+    };
+
     return (
         <div className="mt-8 mb-6">
-            <div className=" bg-base-100">
-                <div className="flex-1 navbar customDiv">
-                    <div className="join">
-                        <input className="join-item btn" type="radio" name="options" aria-label="12 months" />
-                        <input className="join-item btn" type="radio" name="options" aria-label="30 days" />
-                        <input className="join-item btn" type="radio" name="options" aria-label="7 days" />
-                        <input className="join-item btn" type="radio" name="options" aria-label="24 hours" />
+            <div className="flex justify-between">
+                <div className="">
+                    <div role="tablist" className="customDiv font-semibold tabs tabs-boxed flex items-center gap-2 h-full">
+                        {tabTexts.map((tab, index) => (
+                            <div key={tab} className="flex items-center">
+                                <a
+                                    role="tab"
+                                    className={`tab ${activeTab === tab ? "activeTab" : ""}`}
+                                    onClick={() => handleTabClick(tab)}
+                                >
+                                    {tab}
+                                </a>
+                                {index < tabTexts.length - 1 && (
+                                    <span className="h-6 w-px bg-gray-200"></span>
+                                )}
+                            </div>
+                        ))}
                     </div>
                 </div>
-                <div className="flex-none gap-0 md:gap-2">
-                    <div className="flex items-center gap-2 navbar customDiv ">
-                        <div>
-                            <img src="https://i.postimg.cc/gJwd0ywd/date.png" alt="calender-logo" />
-                        </div>
-                        <p className="font-semibold ">Custom Date</p>
+                <div className="flex items-center gap-2 customDiv ">
+                    <div>
+                        <img className="w-6" src="https://i.postimg.cc/gJwd0ywd/date.png" alt="calendar-logo" />
                     </div>
+                    <p className="font-semibold">Custom Date</p>
                 </div>
             </div>
         </div>
