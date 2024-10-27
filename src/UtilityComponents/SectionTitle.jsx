@@ -1,14 +1,7 @@
 import { BsThreeDotsVertical } from "react-icons/bs";
-const PendingTasks = () => {
-    const items = [
-        { id: 1, title: 'Restaurant Account', number: 10 },
-        { id: 2, title: 'Restaurant Onboarding', number: 10 },
-        { id: 3, title: 'Rider Partners', number: 10 },
-        { id: 4, title: 'Rider Onboarding', number: 10 },
-        { id: 5, title: 'Support Tickets', number: 10 },
-    ];
+
+const SectionTitle = () => {
     return (
-        <div className="customDiv">
         <div className="flex justify-between">
             <div>
                 <p className="font-bold">Pending Tasks</p>
@@ -20,8 +13,7 @@ const PendingTasks = () => {
                 </ul>
             </div>
         </div>
-    </div>
     );
 };
 
-export default PendingTasks;
+export default SectionTitle;
