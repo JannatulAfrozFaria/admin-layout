@@ -20,7 +20,7 @@ const ActivityLog = () => {
                             <p className="font-semibold text-lg md:text-3xl">{item.title}</p>
                         </div>
                         <div className="">
-                            <p className="gray text-xs md:text-base">{item.name}</p>
+                            <p className="gray font-semibold">{item.name}</p>
                         </div>
                     </div>
                 ))}
