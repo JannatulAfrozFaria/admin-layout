@@ -4,7 +4,7 @@ import SectionTitle from "../../UtilityComponents/SectionTitle";
 const OrderSummary = () => {
     return (
         <div>
-            <SectionTitle title={'Revenue 600 AED'}></SectionTitle>
+            <SectionTitle title={'Current Order Summary'}></SectionTitle>
         </div>
     );
 };
