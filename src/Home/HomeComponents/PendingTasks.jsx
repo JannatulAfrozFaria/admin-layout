@@ -9,7 +9,7 @@ const PendingTasks = () => {
         { id: 5, title: 'Support Tickets', number: 10 },
     ];
     return (
-        <div className="customDiv">
+        <div className="customDiv2">
             {/* <div className="flex justify-between">
                 <div>
                     <p className="font-bold"></p>
@@ -24,13 +24,14 @@ const PendingTasks = () => {
             <SectionTitle title={'Pending Tasks'}></SectionTitle>
             <div className="grid grid-cols-1 gap-4">
                 {pendingItems.map(item => (
-                    <div key={item.id} className="flex justify-between gap-4 items-center p-4  border rounded-lg bg-base-100">
-                        <div className="iconDiv text-3xl">
-                            <p className="font-semibold text-lg md:text-3xl">{item.number}</p>
-                        </div>
+                    <div key={item.id} className="flex justify-between gap-4 items-center py-2 px-5  border rounded-lg bg-base-100 font-semibold text-lg ">
                         <div className="">
-                            <p className="gray text-xs md:text-base">{item.title}</p>
+                            <p className="">{item.title}</p>
                         </div>
+                        <div className="pendingNumber">
+                            <p className="">{item.number}</p>
+                        </div>
+                        
                     </div>
                 ))}
             </div>

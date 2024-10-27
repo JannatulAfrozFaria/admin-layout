@@ -10,7 +10,7 @@ const ActivityLog = () => {
         { id: 5, date:'12-04-2024', time:'10:14 PM', title: 'New items approved', name: 'Jakit Sarker' },
     ];
     return (
-        <div>
+        <div className="customDiv2">
             <SectionTitle title={'Activity Log'}></SectionTitle>
             <div className="grid grid-cols-1 gap-4">
                 {Activities.map(item => (

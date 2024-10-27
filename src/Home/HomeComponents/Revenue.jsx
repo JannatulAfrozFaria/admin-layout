@@ -1,7 +1,7 @@
 import SectionTitle from "../../UtilityComponents/SectionTitle";
 const Revenue = () => {
     return (
-        <div className="customDiv">
+        <div className="customDiv2">
             {/* <div className="flex justify-between">
                 <div>
                     <p className="font-bold">Revenue 600 AED</p>
