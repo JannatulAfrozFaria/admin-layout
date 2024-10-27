@@ -12,6 +12,19 @@ const ActivityLog = () => {
     return (
         <div>
             <SectionTitle title={'Activity Log'}></SectionTitle>
+            <div className="grid grid-cols-1 gap-4">
+                {Activities.map(item => (
+                    <div key={item.id} className="flex justify-between gap-4 items-center p-4  border rounded-lg bg-base-100">
+                        <div className="">
+                            <p className="gray">{item.date} {item.time} </p>
+                            <p className="font-semibold text-lg md:text-3xl">{item.title}</p>
+                        </div>
+                        <div className="">
+                            <p className="gray text-xs md:text-base">{item.name}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };
