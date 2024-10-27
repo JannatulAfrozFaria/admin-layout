@@ -17,3 +17,8 @@ body{
 .gray{
     color: gray;
 }
+.customDiv {
+    background-color: #ffffff; 
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb; 
+  }

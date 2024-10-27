@@ -27,10 +27,11 @@ const Date = () => {
                                 <AiOutlineMessage />
                             </div>
                         </div>
-                        <div className="divider divider-horizontal"></div>
-                        <div className="hidden md:block text-right">
-                            <p className="font-bold">Nayamul Roni</p>
-                            <p className="gray text-sm">Super Admin</p>
+                        <div className="flex gap-2 navbar customDiv ">
+                           <div>
+                            <img src="https://i.postimg.cc/gJwd0ywd/date.png" alt="calender-logo" />
+                           </div>
+                            <p className="font-semibold ">Custom Date</p>
                         </div>
                     </div>
                 </div>
