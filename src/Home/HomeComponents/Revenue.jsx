@@ -1,9 +1,8 @@
-
-import { BsThreeDotsVertical } from "react-icons/bs";
+import SectionTitle from "../../UtilityComponents/SectionTitle";
 const Revenue = () => {
     return (
         <div className="customDiv">
-            <div className="flex justify-between">
+            {/* <div className="flex justify-between">
                 <div>
                     <p className="font-bold">Revenue 600 AED</p>
                 </div>
@@ -13,7 +12,8 @@ const Revenue = () => {
                         <li><a>Details</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
+            <SectionTitle title={'Revenue 600 AED'}></SectionTitle>
         </div>
     );
 };
