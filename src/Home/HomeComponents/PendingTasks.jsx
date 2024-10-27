@@ -1,7 +1,7 @@
 import SectionTitle from "../../UtilityComponents/SectionTitle";
 
 const PendingTasks = () => {
-    const items = [
+    const pendingItems = [
         { id: 1, title: 'Restaurant Account', number: 10 },
         { id: 2, title: 'Restaurant Onboarding', number: 10 },
         { id: 3, title: 'Rider Partners', number: 10 },
@@ -22,6 +22,20 @@ const PendingTasks = () => {
                 </div>
             </div> */}
             <SectionTitle title={'Pending Tasks'}></SectionTitle>
+            <div className="grid grid-cols-1 gap-4">
+                {pendingItems.map(item => (
+                    <div key={item.id} className="flex gap-4 items-center p-4  border rounded-lg bg-base-100">
+                        <div className="iconDiv text-3xl">
+                            <span>{item.icon}</span>
+                        </div>
+                        <div className="">
+                            <p className="font-semibold text-lg md:text-3xl">{item.number}</p>
+                            <p className="gray text-xs md:text-base">{item.title}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
         </div>
     );
 };
