@@ -1,0 +1,6214 @@
+/* CONTAINER */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px 0px 30px;
+gap: 30px;
+
+width: 1102px;
+height: 1220px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Navbar */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+gap: 10px;
+
+width: 1102px;
+height: 78px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Search */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 116px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* search-01 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 72.92%;
+right: 8.33%;
+top: 72.92%;
+bottom: 8.33%;
+
+border: 1.5px solid #858C94;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 16.67%;
+top: 8.33%;
+bottom: 16.67%;
+
+border: 1.5px solid #858C94;
+
+
+/* Search here... */
+
+width: 82px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+margin: 0 auto;
+width: 277px;
+height: 44px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Menu Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 78px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Notification */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+isolation: isolate;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* notification-02 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.42%;
+right: 10.42%;
+top: 8.33%;
+bottom: 20.83%;
+
+border: 1.5px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 79.17%;
+bottom: 8.33%;
+
+border: 1.5px solid #000000;
+
+
+/* Badge Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 4px 8px;
+gap: 10px;
+
+position: absolute;
+width: 20px;
+height: 22px;
+left: 12px;
+top: -7px;
+
+background: #A1045A;
+border-radius: 90px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* 1 */
+
+width: 4px;
+height: 14px;
+
+/* body/xs/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #FAFAFA;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Message */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* message-02 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 10.42%;
+bottom: 10.42%;
+
+border: 1.5px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 50%;
+bottom: 50%;
+
+border: 2px solid #000000;
+
+
+/* Divider */
+
+width: 1px;
+height: 44px;
+
+/* Grey-02 */
+background: #C2C2C2;
+opacity: 0.5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Profile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 138px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* User */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 138px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 4px;
+
+width: 86px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Nayamul Roni */
+
+width: 86px;
+height: 17px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Online */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 69px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Super Admin */
+
+width: 69px;
+height: 14px;
+
+/* body/xs/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Avatars */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Ellipse 5 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FAFAFA;
+
+
+/* Intersect */
+
+position: absolute;
+left: 5%;
+right: 5%;
+top: 3.5%;
+bottom: 0%;
+
+background: url();
+
+
+/* Ellipse 4 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #D0B229;
+
+
+/* unsplash:DItYlc26zVI */
+
+position: absolute;
+left: 5%;
+right: 5%;
+top: 3.5%;
+bottom: 0%;
+
+background: url();
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1102px;
+height: 1082px;
+
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Tabs and filters */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1102px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Button group */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+margin: 0 auto;
+width: 332px;
+height: 40px;
+
+border: 1px solid rgba(0, 0, 0, 0.05);
+/* Shadows/shadow-xs */
+filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Button group base */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 94px;
+height: 40px;
+min-height: 40px;
+
+background: #FAFAFA;
+border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Text */
+
+width: 62px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Button group base */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 81px;
+height: 40px;
+min-height: 40px;
+
+background: #FFFFFF;
+border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Text */
+
+width: 49px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Button group base */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 73px;
+height: 40px;
+min-height: 40px;
+
+background: #FFFFFF;
+border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Text */
+
+width: 41px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* _Button group base */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 84px;
+height: 40px;
+min-height: 40px;
+
+background: #FFFFFF;
+border-right: 1px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Text */
+
+width: 52px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 138px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Date picker dropdown */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 138px;
+height: 40px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Buttons/Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 14px;
+gap: 4px;
+
+width: 138px;
+height: 40px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* calendar */
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.66667px solid #000000;
+
+
+/* Text padding */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 2px;
+
+width: 86px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 82px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* placeholder
+
+<p>placeholder, circle</p>
+*/
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* cards */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 1102px;
+height: 208px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+width: 1102px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* user */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 58.33%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 8.33%;
+bottom: 54.17%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3301 */
+
+width: 44px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Total Customer */
+
+width: 95px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 2 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* border-full */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 37.5%;
+top: 39.58%;
+bottom: 39.58%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 10457 */
+
+width: 59px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Total Orders */
+
+width: 77px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 4 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* border-full */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 37.5%;
+top: 39.58%;
+bottom: 39.58%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3000 */
+
+width: 52px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Completed Orders */
+
+width: 115px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* border-full */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 37.5%;
+top: 39.58%;
+bottom: 39.58%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 240 */
+
+width: 39px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cancelled Orders */
+
+width: 107px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+width: 1102px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 1 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* spoon-and-fork */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 8.33%;
+top: 12.51%;
+bottom: 12.49%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 72.92%;
+right: 16.67%;
+top: 20.83%;
+bottom: 68.75%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 16.67%;
+top: 12.5%;
+bottom: 12.5%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.34%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 1200 */
+
+width: 46px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Restaurant Partners */
+
+width: 121px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 2 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* motorbike-01 */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.83%;
+right: 8.33%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 16.67%;
+top: 45.83%;
+bottom: 25%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 70.83%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 37.5%;
+top: 31.25%;
+bottom: 33.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.83%;
+right: 29.17%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 3628 */
+
+width: 49px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rider Partners */
+
+width: 86px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 3 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* motorbike-02 */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.83%;
+right: 8.33%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 70.83%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.34%;
+top: 20.83%;
+bottom: 33.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 17349 */
+
+width: 56px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Approved Rider */
+
+width: 96px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 4 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 20px 0px;
+gap: 40px;
+
+width: 256px;
+height: 98px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+gap: 20px;
+
+width: 256px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 15px;
+
+width: 58px;
+height: 58px;
+
+background: #A1045A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* cash-02 */
+
+width: 28px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 20.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 83.33%;
+bottom: 8.33%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.58%;
+right: 39.58%;
+top: 33.33%;
+bottom: 45.83%;
+
+border: 1.75px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.92%;
+right: 77.08%;
+top: 47.92%;
+bottom: 52.05%;
+
+border: 2.33333px solid #FAFAFA;
+
+
+/* Vector */
+
+position: absolute;
+left: 77.08%;
+right: 22.92%;
+top: 39.55%;
+bottom: 60.41%;
+
+border: 2.33333px solid #FAFAFA;
+
+
+/* Number */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 148px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 1393 */
+
+width: 42px;
+height: 29px;
+
+/* heading/h6/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Coupons Active */
+
+width: 96px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1100px;
+height: 327px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Total Revenue */
+
+width: 540px;
+height: 327px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 742 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 540px;
+height: 327px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+
+/* amount */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 46px;
+height: 184px;
+left: 12px;
+top: 70px;
+
+
+
+/* AED 500 */
+
+width: 46px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* AED 400 */
+
+width: 46px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* AED 400 */
+
+width: 46px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* AED 200 */
+
+width: 46px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* AED 100 */
+
+width: 43px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* AED 0 */
+
+width: 33px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: right;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* graph */
+
+position: absolute;
+width: 459px;
+height: 190px;
+left: 61px;
+top: 79px;
+
+
+
+/* Line 5 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 117px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Line 10 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 79px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Line 6 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 155px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Line 7 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 193px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Line 3 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 231px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Line 11 */
+
+position: absolute;
+width: 459px;
+height: 0px;
+left: 61px;
+top: 269px;
+
+opacity: 0.5;
+/* Dark/Dark-10% */
+border: 1px dashed rgba(32, 26, 24, 0.1);
+
+
+/* Vector 2 */
+
+position: absolute;
+width: 459px;
+height: 190px;
+left: 61px;
+top: 79px;
+
+background: linear-gradient(180deg, #A01E5D 0%, rgba(160, 30, 93, 0) 100%);
+opacity: 0.5;
+
+
+/* Vector 1 */
+
+position: absolute;
+width: 459px;
+height: 190px;
+left: 61px;
+top: 79px;
+
+/* #A1045A */
+border: 2px solid #A1045A;
+border-radius: 100px;
+
+
+/* Tooltip */
+
+position: absolute;
+width: 48px;
+height: 61px;
+left: 303px;
+top: 80px;
+
+
+
+/* Group 3984 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 320px;
+top: 121px;
+
+
+
+/* Ellipse 945 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 320px;
+top: 121px;
+
+background: #A1045A;
+
+
+/* Ellipse 946 */
+
+position: absolute;
+width: 12.31px;
+height: 12.31px;
+left: 323.85px;
+top: 124.85px;
+
+background: #FAFAFA;
+
+
+/* Union */
+
+position: absolute;
+width: 48px;
+height: 37.5px;
+left: 303px;
+top: 80px;
+
+/* White */
+background: #FFFFFF;
+box-shadow: 0px 10px 32px rgba(31, 47, 70, 0.12);
+
+
+/* Rectangle 3463272 */
+
+position: absolute;
+width: 48px;
+height: 32px;
+left: 303px;
+top: 80px;
+
+background: #D9D9D9;
+border-radius: 5px;
+
+
+/* Polygon 1 */
+
+position: absolute;
+width: 7.2px;
+height: 6.5px;
+left: 333px;
+top: 117.5px;
+
+background: #D9D9D9;
+transform: rotate(180deg);
+
+
+/* 600 */
+
+position: absolute;
+width: 28px;
+height: 19px;
+left: 313px;
+top: 86px;
+
+/* body/md/Bold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* hour */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 453px;
+height: 14px;
+left: 58px;
+top: 289px;
+
+
+
+/* 00hr */
+
+margin: 0 auto;
+width: 25px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 02hr */
+
+margin: 0 auto;
+width: 25px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* 04hr */
+
+margin: 0 auto;
+width: 25px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* 06h4 */
+
+margin: 0 auto;
+width: 27px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* 08hr */
+
+margin: 0 auto;
+width: 25px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* 10hr */
+
+margin: 0 auto;
+width: 22px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* 12hr */
+
+margin: 0 auto;
+width: 21px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* 14hr */
+
+margin: 0 auto;
+width: 21px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* 16hr */
+
+margin: 0 auto;
+width: 21px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* 20hr */
+
+margin: 0 auto;
+width: 25px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* 22hr */
+
+margin: 0 auto;
+width: 24px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* 24hr */
+
+margin: 0 auto;
+width: 24px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+
+
+/* Title */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 15px;
+gap: 10px;
+
+position: absolute;
+width: 498px;
+height: 37px;
+left: 20px;
+top: 18px;
+
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+margin: 0 auto;
+width: 476px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Revenue 600 AED */
+
+width: 476px;
+height: 19px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Right Panel */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* DotsThreeVertical */
+
+width: 22px;
+height: 22px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.31%;
+right: 45.31%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #858C94;
+
+
+/* Total Orders */
+
+width: 540px;
+height: 327px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 742 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 540px;
+height: 327px;
+left: 560px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 489px;
+height: 245px;
+left: 580px;
+top: 67px;
+
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+gap: 16px;
+
+width: 489px;
+height: 41px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 465px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 378px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 121px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Offer label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 6px 12px;
+gap: 4px;
+
+margin: 0 auto;
+width: 37px;
+height: 29px;
+
+background: rgba(161, 4, 90, 0.1);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 13px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+gap: 16px;
+
+width: 489px;
+height: 41px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 465px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 378px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 145px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Offer label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 6px 12px;
+gap: 4px;
+
+margin: 0 auto;
+width: 37px;
+height: 29px;
+
+background: rgba(161, 4, 90, 0.1);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 13px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+gap: 16px;
+
+width: 489px;
+height: 41px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 465px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 378px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 87px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Offer label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 6px 12px;
+gap: 4px;
+
+margin: 0 auto;
+width: 37px;
+height: 29px;
+
+background: rgba(161, 4, 90, 0.1);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 13px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+gap: 16px;
+
+width: 489px;
+height: 41px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 465px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 378px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 110px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Offer label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 6px 12px;
+gap: 4px;
+
+margin: 0 auto;
+width: 37px;
+height: 29px;
+
+background: rgba(161, 4, 90, 0.1);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 13px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+gap: 16px;
+
+width: 489px;
+height: 41px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 465px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 378px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 97px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Offer label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 6px 12px;
+gap: 4px;
+
+margin: 0 auto;
+width: 37px;
+height: 29px;
+
+background: rgba(161, 4, 90, 0.1);
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 13px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 15px;
+gap: 10px;
+
+position: absolute;
+width: 498px;
+height: 37px;
+left: 580px;
+top: 18px;
+
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+margin: 0 auto;
+width: 476px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Pending Tasks */
+
+width: 476px;
+height: 17px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Right Panel */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* DotsThreeVertical */
+
+width: 22px;
+height: 22px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.31%;
+right: 45.31%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #858C94;
+
+
+/* Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+width: 1102px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Order Summary */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 15px;
+
+width: 538px;
+height: 435px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Title */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 15px;
+gap: 10px;
+
+width: 498px;
+height: 37px;
+
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+margin: 0 auto;
+width: 476px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Current Order Summary */
+
+width: 476px;
+height: 17px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Right Panel */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* DotsThreeVertical */
+
+width: 22px;
+height: 22px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.31%;
+right: 45.31%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #858C94;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 11px;
+
+width: 497px;
+height: 342px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+gap: 25px;
+
+width: 497px;
+height: 48px;
+
+background: rgba(161, 4, 90, 0.08);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 331.5px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Basket */
+
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 6.26%;
+bottom: 15.63%;
+
+background: #A1045A;
+
+
+/* 125 new orders! */
+
+width: 295px;
+height: 17px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 7px 14px;
+gap: 10px;
+
+margin: 0 auto;
+width: 107px;
+height: 28px;
+
+background: #FFFFFF;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Manage Order */
+
+width: 79px;
+height: 14px;
+
+/* body/xs/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+
+color: #A1045A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 497px;
+height: 283px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Numbers */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 497px;
+height: 85px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Delivered */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 15px;
+
+width: 109.25px;
+height: 85px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 389 */
+
+width: 49px;
+height: 38px;
+
+/* heading/h5/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Active */
+
+width: 38px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* New Orders */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 15px;
+
+width: 109.25px;
+height: 85px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* 125 */
+
+width: 44px;
+height: 38px;
+
+/* heading/h5/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Pending */
+
+width: 49px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* On Process */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 15px;
+
+width: 109.25px;
+height: 85px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* 234 */
+
+width: 51px;
+height: 38px;
+
+/* heading/h5/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Refunded */
+
+width: 60px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* On Process */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 15px;
+
+width: 109.25px;
+height: 85px;
+
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* 234 */
+
+width: 51px;
+height: 38px;
+
+/* heading/h5/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -1px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cancelled */
+
+width: 62px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Chart */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 497px;
+height: 165px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pie */
+
+width: 133px;
+height: 133px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 63.32px;
+height: 57.35px;
+left: calc(50% - 63.32px/2 - 150.34px);
+top: 16px;
+
+/* Solid Colors/Light/Warning/Warning - 500 (Base) */
+background: #FFAE41;
+/* Additional Colors/Light/White */
+border: 9.0827px solid #FFFFFF;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 116.62px;
+height: 88.35px;
+left: calc(50% - 116.62px/2 - 173.81px);
+top: 60.65px;
+
+/* Solid Colors/Light/Success/Success - 500 (Base) */
+background: #00997E;
+/* Additional Colors/Light/White */
+border: 9.0827px solid #FFFFFF;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 66.48px;
+height: 111.02px;
+left: calc(50% - 66.48px/2 - 215.26px);
+top: 16px;
+
+background: #FF1717;
+/* Additional Colors/Light/White */
+border: 9.0827px solid #FFFFFF;
+
+
+/* Detail Info */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 15px;
+
+width: 344px;
+height: 165px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 344px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 344px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Active (43%) */
+
+margin: 0 auto;
+width: 322px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 384 */
+
+margin: 0 auto;
+width: 22px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Progress */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 344px;
+height: 8px;
+
+/* Opacity Colors/Light/Gray/Gray - 16% */
+background: rgba(144, 146, 148, 0.16);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Progress */
+
+width: 283px;
+height: 8px;
+
+/* Solid Colors/Light/Success/Success - 500 (Base) */
+background: #00997E;
+/* Gray/Gray - Small */
+box-shadow: 0px 2px 6px rgba(144, 146, 148, 0.2);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 344px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 344px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Pending (20%) */
+
+margin: 0 auto;
+width: 324px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 125 */
+
+margin: 0 auto;
+width: 20px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Progress */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 344px;
+height: 8px;
+
+/* Opacity Colors/Light/Gray/Gray - 16% */
+background: rgba(144, 146, 148, 0.16);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Progress */
+
+width: 161px;
+height: 8px;
+
+background: #41A3FF;
+/* Gray/Gray - Small */
+box-shadow: 0px 2px 6px rgba(144, 146, 148, 0.2);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 344px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 344px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Refunded (37%) */
+
+margin: 0 auto;
+width: 321px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 234 */
+
+margin: 0 auto;
+width: 23px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Progress */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 344px;
+height: 8px;
+
+/* Opacity Colors/Light/Gray/Gray - 16% */
+background: rgba(144, 146, 148, 0.16);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Progress */
+
+width: 226px;
+height: 8px;
+
+background: #FFA133;
+/* Gray/Gray - Small */
+box-shadow: 0px 2px 6px rgba(144, 146, 148, 0.2);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 5px;
+
+width: 344px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 344px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Cancelled (37%) */
+
+margin: 0 auto;
+width: 321px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 234 */
+
+margin: 0 auto;
+width: 23px;
+height: 17px;
+
+/* body/sm/Regular */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Progress */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 344px;
+height: 8px;
+
+/* Opacity Colors/Light/Gray/Gray - 16% */
+background: rgba(144, 146, 148, 0.16);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Progress */
+
+width: 226px;
+height: 8px;
+
+background: #FF1717;
+/* Gray/Gray - Small */
+box-shadow: 0px 2px 6px rgba(144, 146, 148, 0.2);
+border-radius: 30px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 26px;
+
+width: 538px;
+height: 435px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* business */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 18px 20px;
+gap: 10px;
+
+width: 538px;
+height: 388px;
+
+/* White-500 */
+background: #FFFFFF;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 498px;
+height: 352px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Title */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 0px 15px;
+gap: 10px;
+
+width: 498px;
+height: 37px;
+
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+margin: 0 auto;
+width: 476px;
+height: 17px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Activity Log */
+
+width: 476px;
+height: 17px;
+
+/* body/sm/Semibold */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Right Panel */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 22px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* DotsThreeVertical */
+
+width: 22px;
+height: 22px;
+
+border-radius: 2px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 45.31%;
+right: 45.31%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #858C94;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 498px;
+height: 51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 16px;
+
+width: 498px;
+height: 51px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 474px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 400px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Offer Details */
+
+width: 400px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* #757D85 */
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 116px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+margin: 0 auto;
+width: 74px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 498px;
+height: 51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 16px;
+
+width: 498px;
+height: 51px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 474px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 400px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Offer Details */
+
+width: 400px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* #757D85 */
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 116px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+margin: 0 auto;
+width: 74px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 498px;
+height: 51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 16px;
+
+width: 498px;
+height: 51px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 474px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 400px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Offer Details */
+
+width: 400px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* #757D85 */
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 116px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+margin: 0 auto;
+width: 74px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 498px;
+height: 51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 16px;
+
+width: 498px;
+height: 51px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 474px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 400px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Offer Details */
+
+width: 400px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* #757D85 */
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 116px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+margin: 0 auto;
+width: 74px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 498px;
+height: 51px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Item */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 12px;
+gap: 16px;
+
+width: 498px;
+height: 51px;
+
+/* #F5F5F8 */
+border: 1px solid #F5F5F8;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* content */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 474px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 400px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Offer Details */
+
+width: 400px;
+height: 14px;
+
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: -0.078px;
+
+/* #757D85 */
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Number */
+
+width: 129px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Number */
+
+margin: 0 auto;
+width: 74px;
+height: 17px;
+
+/* body/sm/Medium */
+font-family: 'Urbanist';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #757D85;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
