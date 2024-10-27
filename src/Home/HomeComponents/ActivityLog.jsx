@@ -17,7 +17,7 @@ const ActivityLog = () => {
                     <div key={item.id} className="flex justify-between gap-4 items-center p-4  border rounded-lg bg-base-100">
                         <div className="">
                             <p className="gray">{item.date} {item.time} </p>
-                            <p className="font-semibold text-lg md:text-3xl">{item.title}</p>
+                            <p className="font-semibold text-lg ">{item.title}</p>
                         </div>
                         <div className="">
                             <p className="gray font-semibold">{item.name}</p>
