@@ -4,6 +4,9 @@ const Revenue = () => {
     return (
         <div>
             <div className="flex justify-between">
+                <div>
+                    <p className="font-bold">Revenue 600 AED</p>
+                </div>
                 <div className="dropdown dropdown-bottom dropdown-end">
                     <div tabIndex={0} role="button" className="btn m-1"><BsThreeDotsVertical /></div>
                     <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
