@@ -2,7 +2,7 @@
 
 const Date = () => {
     return (
-        <div>
+        <div className="mt-8 mb-6">
             <div className=" bg-base-100">
                 <div className="flex-1 navbar customDiv">
                     <div className="join">
