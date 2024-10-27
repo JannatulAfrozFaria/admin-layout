@@ -1,4 +1,4 @@
-
+import { CiSearch } from "react-icons/ci";
 
 const NavBar = () => {
     return (
@@ -6,7 +6,7 @@ const NavBar = () => {
             <div className="navbar bg-base-100">
                 <div className="flex-1">
                     <div className="form-control">
-                        <input type="text" placeholder="Search here..." className="input input-bordered w-24 md:w-auto" />
+                    <CiSearch /> <input type="text" placeholder="Search here..." className="input input-bordered w-24 md:w-auto" />
                     </div>
                 </div>
                 <div className="flex-none gap-2">
