@@ -4,7 +4,7 @@ import SectionTitle from "../../UtilityComponents/SectionTitle";
 const ActivityLog = () => {
     return (
         <div>
-            <SectionTitle title={'Current Order Summary'}></SectionTitle>
+            <SectionTitle title={'Activity Log'}></SectionTitle>
         </div>
     );
 };
