@@ -30,3 +30,11 @@ body {
 .activeTab {
     color: #a1045a
 }
+/* STATISTICS----- */
+.iconDiv{
+    background-color: #a1045a;
+    border-radius: 0.5rem;
+    color: white;
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+}

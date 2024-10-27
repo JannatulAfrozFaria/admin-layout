@@ -9,6 +9,7 @@ const Home = () => {
             <NavBar></NavBar>
             <Date></Date>
             <Statistics></Statistics>
+            <div className="flex gap-6 my-8"></div>
         </div>
     );
 };
