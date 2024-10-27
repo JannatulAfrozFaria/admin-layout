@@ -1,5 +1,6 @@
 import Date from "../HomeComponents/Date";
 import NavBar from "../HomeComponents/NavBar";
+import PendingTasks from "../HomeComponents/PendingTasks";
 import Revenue from "../HomeComponents/Revenue";
 import Statistics from "../HomeComponents/Statistics";
 
@@ -12,6 +13,7 @@ const Home = () => {
             <Statistics></Statistics>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
                 <Revenue></Revenue>
+                <PendingTasks></PendingTasks>
             </div>
         </div>
     );
