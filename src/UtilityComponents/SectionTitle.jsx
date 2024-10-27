@@ -1,10 +1,10 @@
 import { BsThreeDotsVertical } from "react-icons/bs";
 
-const SectionTitle = () => {
+const SectionTitle = ({title}) => {
     return (
         <div className="flex justify-between">
             <div>
-                <p className="font-bold">Pending Tasks</p>
+                <p className="font-bold">{title}</p>
             </div>
             <div className="dropdown dropdown-bottom dropdown-end">
                 <div tabIndex={0} role="button" className=" m-1"><BsThreeDotsVertical /></div>
