@@ -25,13 +25,9 @@ const OrderSummary = () => {
             {/* ORDER-DATA------- */}
             <div className="grid grid-cols-4 gap-4">
             {OrderStats.map(item => (
-                    <div key={item.id} className="flex flex-col gap-2 justify-center">
-                        <div className="">
-                            <p className="text-2xl">{item.number}</p>
-                        </div>
-                        <div className="pendingNumber">
-                            <p className="">{item.title}</p>
-                        </div>
+                    <div key={item.id} className="flex flex-col gap-2 justify-center py-2 px-5  border rounded-lg bg-base-100 ">
+                        <p className="text-2xl">{item.number}</p>
+                        <p className="">{item.title}</p>
                     </div>
                 ))}
             </div>
