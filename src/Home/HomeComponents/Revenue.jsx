@@ -83,6 +83,7 @@ const Revenue = () => {
             }
         },
         tooltip: {
+            followCursor: false,
             shared: false,
             x: { show: false },
             y: {
@@ -90,7 +91,7 @@ const Revenue = () => {
                 title: { formatter: () => '' }
             },
             style: {
-                fontSize: '12px',
+                fontSize: '16px',
                 fontFamily: 'Urbanist, sans-serif',
                 color: '#000000'
             },
