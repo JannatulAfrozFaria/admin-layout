@@ -10,17 +10,6 @@ const PendingTasks = () => {
     ];
     return (
         <div className="customDiv2">
-            {/* <div className="flex justify-between">
-                <div>
-                    <p className="font-bold"></p>
-                </div>
-                <div className="dropdown dropdown-bottom dropdown-end">
-                    <div tabIndex={0} role="button" className=" m-1"><BsThreeDotsVertical /></div>
-                    <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                        <li><a>Details</a></li>
-                    </ul>
-                </div>
-            </div> */}
             <SectionTitle title={'Pending Tasks'}></SectionTitle>
             <div className="grid grid-cols-1 gap-4">
                 {pendingItems.map(item => (
