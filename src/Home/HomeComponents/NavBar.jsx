@@ -11,7 +11,7 @@ const NavBar = () => {
                         <input
                             type="text"
                             placeholder="Search here..."
-                            className="input input-bordered pl-10 w-36 md:w-auto"
+                            className="input pl-10"
                         />
                     </div>
                 </div>
