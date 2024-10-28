@@ -13,7 +13,7 @@ const OrderSummary = () => {
         >
             <SectionTitle title={'Current Order Summary'}></SectionTitle>
             {/* TOTAL----ORDERS */}
-            <div className="orderDiv flex justify-between items-center ">
+            <div className="orderDiv flex justify-between items-center my-4 ">
                 <div className="flex gap-3 items-center font-bold">
                     <div> <FiArchive /></div>
                     <div>125 new Orders!</div>
@@ -30,6 +30,11 @@ const OrderSummary = () => {
                         <p className="gray">{item.title}</p>
                     </div>
                 ))}
+            </div>
+            {/* PI-------CHART */}
+            <div className="my-4 grid grid-cols-2 gap-4">
+                <div></div>
+                
             </div>
         </div>
     );
