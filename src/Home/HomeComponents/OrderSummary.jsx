@@ -12,7 +12,7 @@ const OrderSummary = () => {
                     <div>125 new Orders!</div>
                 </div>
                 <div>
-                    <button className="btn manageBtn">Manage Orders</button>
+                    <button className=" manageBtn">Manage Orders</button>
                 </div>
             </div>
         </div>
