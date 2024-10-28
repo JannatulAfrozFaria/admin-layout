@@ -9,7 +9,7 @@ import Statistics from "../HomeComponents/Statistics";
 
 const Home = () => {
     return (
-        <div className="urbanist px-2 md:px-6 py-2">
+        <div className="urbanist px-4 md:px-6 py-4">
             <NavBar></NavBar>
             <Date></Date>
             <Statistics></Statistics>

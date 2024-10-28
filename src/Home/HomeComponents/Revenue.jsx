@@ -4,8 +4,8 @@ import ReactApexChart from "react-apexcharts";
 const Revenue = () => {
     const series = [
         {
-            name: 'series1',
-            data: [0, 100, 70, 200, 300, 350, 400, 300, 450, 480, 490, 500]
+            name: 'Revenue',
+            data: [0, 100, 60, 200, 100, 250, 200, 350, 300, 450, 400, 500]
         }
     ];
 
@@ -40,17 +40,9 @@ const Revenue = () => {
         grid: {
             show: true,
             borderColor: '#f0f0ef', 
-            strokeDashArray: 4, 
-            xaxis: {
-                lines: {
-                    show: false
-                }
-            },
-            yaxis: {
-                lines: {
-                    show: true
-                }
-            }
+            strokeDashArray: 4,
+            xaxis: { lines: { show: false } },
+            yaxis: { lines: { show: true } }
         },
         xaxis: {
             type: 'datetime',
@@ -69,7 +61,6 @@ const Revenue = () => {
                 "2018-09-19T22:00:00.000Z"
             ],
             labels: {
-                // format: 'dd/MM HH:mm',
                 formatter: (value) => {
                     const date = new Date(value);
                     return `${String(date.getUTCHours()).padStart(2, '0')}hr`;
@@ -77,16 +68,9 @@ const Revenue = () => {
                 style: {
                     colors: '#141414',
                     fontSize: '12px',
-                    fontFamily: 'Urbanist, sans-serif',
-                },
-            },
-            // title: {
-            //     text: "Time",
-            //     style: {
-            //         color: '#666',
-            //         fontSize: '14px'
-            //     }
-            // }
+                    fontFamily: 'Urbanist, sans-serif'
+                }
+            }
         },
         yaxis: {
             labels: {
@@ -94,20 +78,42 @@ const Revenue = () => {
                 style: {
                     colors: '#141414',
                     fontSize: '12px',
-                    fontFamily: 'Urbanist, sans-serif',
-                },
-            },
-            // title: {
-            //     text: "Revenue",
-            //     style: {
-            //         color: '#666',
-            //         fontSize: '14px'
-            //     }
-            // }
+                    fontFamily: 'Urbanist, sans-serif'
+                }
+            }
         },
         tooltip: {
-            x: {
-                format: 'dd/MM/yy HH:mm'
+            shared: false,
+            x: { show: false },
+            y: {
+                formatter: (value) => `${value}`,
+                title: { formatter: () => '' }
+            },
+            style: {
+                fontSize: '12px',
+                fontFamily: 'Urbanist, sans-serif',
+                color: '#000000'
+            },
+            theme: 'light',
+            marker: {
+                show: true,
+                fillColors: ['#FFFFFF'],
+                strokeColors: ['#a1045a'],
+                strokeWidth: 2,
+                radius: 4
+            },
+            background: {
+                enabled: true,
+                color: '#ffffff',
+                dropShadow: {
+                    enabled: true,
+                    top: 1,
+                    left: 1,
+                    blur: 5,
+                    color: '#000',
+                    opacity: 0.15
+                },
+                borderRadius: 4
             }
         }
     };
@@ -123,3 +129,4 @@ const Revenue = () => {
 };
 
 export default Revenue;
+
