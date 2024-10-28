@@ -31,7 +31,6 @@ const PendingTasks = () => {
                         <div className="pendingNumber">
                             <p className="">{item.number}</p>
                         </div>
-                        
                     </div>
                 ))}
             </div>
