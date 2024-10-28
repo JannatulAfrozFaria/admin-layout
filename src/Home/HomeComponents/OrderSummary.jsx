@@ -38,7 +38,8 @@ const OrderSummary = () => {
                     {OrderStats.map(item => (
                         <div key={item.id}>
                             <div className="flex justify-between">
-                                <p>{item.title}</p>
+                                <p>{item.title} <span className="ml-1">( {item.percentage}% )</span> </p>
+                                <p className="gray">{item.number} </p>
                             </div>
                             <progress className="progress progress-success w-56" value={0} max="100"></progress>
                         </div>
