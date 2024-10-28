@@ -3,15 +3,16 @@ import { FiArchive } from "react-icons/fi";
 
 const OrderSummary = () => {
     const OrderStats = [
-        { id: 1, title: 'Restaurant Account', number: 389 },
-        { id: 2, title: 'Restaurant Onboarding', number: 125 },
-        { id: 3, title: 'Rider Partners', number: 234 },
-        { id: 4, title: 'Rider Onboarding', number: 234 },
+        { id: 1, title: 'Active', number: 389 },
+        { id: 2, title: 'Pending', number: 125 },
+        { id: 3, title: 'Refunded', number: 234 },
+        { id: 4, title: 'Cancelled', number: 234 },
     ];
     return (
         <div className="customDiv2"
         >
             <SectionTitle title={'Current Order Summary'}></SectionTitle>
+            {/* TOTAL----ORDERS */}
             <div className="orderDiv flex justify-between items-center ">
                 <div className="flex gap-3 items-center font-bold">
                     <div> <FiArchive /></div>
@@ -24,12 +25,12 @@ const OrderSummary = () => {
             {/* ORDER-DATA------- */}
             <div className="grid grid-cols-4 gap-4">
             {OrderStats.map(item => (
-                    <div key={item.id} className="flex justify-between gap-4 items-center py-2 px-5  border rounded-lg bg-base-100 font-semibold text-lg ">
+                    <div key={item.id} className="flex flex-col gap-2 justify-center">
                         <div className="">
-                            <p className="">{item.title}</p>
+                            <p className="text-2xl">{item.number}</p>
                         </div>
                         <div className="pendingNumber">
-                            <p className="">{item.number}</p>
+                            <p className="">{item.title}</p>
                         </div>
                     </div>
                 ))}
