@@ -17,14 +17,14 @@ const NavBar = () => {
                 </div>
                 <div className="flex-none gap-0 md:gap-2">
                     <div className="flex items-center gap-0 md:gap-2">
-                        <div className="flex gap-6 md:gap-8">
+                        <div className="flex gap-3 md:gap-8">
                             <div>
                                 <div className="indicator">
                                     <span className="indicator-item w-6   text-center bg-red-700 text-white rounded-full">1</span>
                                     <div className="text-2xl" ><HiOutlineBell /></div>
                                 </div>
                             </div>
-                            <div className="text-2xl">
+                            <div className="text-2xl hidden md:block">
                                 <AiOutlineMessage />
                             </div>
                         </div>
