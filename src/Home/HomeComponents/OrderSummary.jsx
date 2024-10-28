@@ -3,11 +3,10 @@ import { FiArchive } from "react-icons/fi";
 
 const OrderSummary = () => {
     const OrderStats = [
-        { id: 1, title: 'Restaurant Account', number: 10 },
-        { id: 2, title: 'Restaurant Onboarding', number: 10 },
-        { id: 3, title: 'Rider Partners', number: 10 },
-        { id: 4, title: 'Rider Onboarding', number: 10 },
-        { id: 5, title: 'Support Tickets', number: 10 },
+        { id: 1, title: 'Restaurant Account', number: 389 },
+        { id: 2, title: 'Restaurant Onboarding', number: 125 },
+        { id: 3, title: 'Rider Partners', number: 234 },
+        { id: 4, title: 'Rider Onboarding', number: 234 },
     ];
     return (
         <div className="customDiv2"
