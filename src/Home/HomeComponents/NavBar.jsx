@@ -7,7 +7,7 @@ const NavBar = () => {
             <div className="navbar bg-base-100  rounded-lg border">
                 <div className="flex-1">
                     <div className="form-control relative">
-                        <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
+                        <CiSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 text-2xl" />
                         <input
                             type="text"
                             placeholder="Search here..."
