@@ -11,12 +11,12 @@ const NavBar = () => {
                         <input
                             type="text"
                             placeholder="Search here..."
-                            className="input input-bordered pl-10 w-24 md:w-auto"
+                            className="input input-bordered pl-10 w-36 md:w-auto"
                         />
                     </div>
                 </div>
                 <div className="flex-none gap-0 md:gap-2">
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-0 md:gap-2">
                         <div className="flex gap-6 md:gap-8">
                             <div>
                                 <div className="indicator">
