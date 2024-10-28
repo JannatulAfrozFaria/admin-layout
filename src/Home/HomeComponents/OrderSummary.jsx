@@ -36,7 +36,12 @@ const OrderSummary = () => {
                 <div></div>
                 <div className="grid grid-cols-1 gap-4">
                     {OrderStats.map(item => (
-                            <progress key={item.id} className="progress progress-success w-56" value={0} max="100"></progress>
+                        <div key={item.id}>
+                            <div className="flex justify-between">
+                                <p>{item.title}</p>
+                            </div>
+                            <progress className="progress progress-success w-56" value={0} max="100"></progress>
+                        </div>
                     ))}
                 </div>
             </div>
