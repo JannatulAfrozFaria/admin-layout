@@ -17,9 +17,9 @@ const Statistics = () => {
         { id: 8, icon: <LiaMoneyBillWaveSolid />, title: 'Coupons Active', number: 1393 },
     ];
     return (
-        <div className="grid  grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-3">
+        <div className="grid  grid-cols-2 md:grid-cols-4 gap-x-4 md:gap-x-6 gap-y-2 md:gap-y-3">
             {items.map(item => (
-                <div key={item.id} className="flex gap-3 md:gap-4 items-center p-3 md:p-4  border rounded-lg bg-base-100">
+                <div key={item.id} className="flex gap-2 md:gap-4 items-center p-2 md:p-4  border rounded-lg bg-base-100">
                     <div className="iconDiv text-3xl">
                         <span>{item.icon}</span>
                     </div>
