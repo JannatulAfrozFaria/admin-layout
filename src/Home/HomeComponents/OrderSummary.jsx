@@ -11,7 +11,9 @@ const OrderSummary = () => {
                     <div> <FiArchive /></div>
                     <div>125 new Orders!</div>
                 </div>
-
+                <div>
+                    <button className="btn manageBtn">Manage Orders</button>
+                </div>
             </div>
         </div>
     );
