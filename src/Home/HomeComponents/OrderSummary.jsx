@@ -45,11 +45,11 @@ const OrderSummary = () => {
                 <button className="manageBtn">Manage Orders</button>
             </div>
             {/* ORDER-DATA------- */}
-            <div className="grid grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {OrderStats.map(item => (
-                    <div key={item.id} className="flex flex-col gap-2 justify-center py-4 px-2 md:px-5 border rounded-lg bg-base-100">
-                        <p className="text-2xl md:text-4xl font-semibold">{item.number}</p>
-                        <p className="gray text-xs md:text-base">{item.title}</p>
+                    <div key={item.id} className="flex flex-col gap-2 justify-center py-4 px-5 border rounded-lg bg-base-100">
+                        <p className="text-3xl md:text-4xl font-semibold">{item.number}</p>
+                        <p className="gray text-base">{item.title}</p>
                     </div>
                 ))}
             </div>

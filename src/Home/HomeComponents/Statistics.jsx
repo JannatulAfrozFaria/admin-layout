@@ -19,11 +19,11 @@ const Statistics = () => {
     return (
         <div className="grid  grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-3">
             {items.map(item => (
-                <div key={item.id} className="flex gap-4 items-center p-4  border rounded-lg bg-base-100">
+                <div key={item.id} className="flex gap-3 md:gap-4 items-center p-3 md:p-4  border rounded-lg bg-base-100">
                     <div className="iconDiv text-3xl">
                         <span>{item.icon}</span>
                     </div>
-                    <div className="">
+                    <div >
                         <p className="font-semibold text-lg md:text-3xl">{item.number}</p>
                         <p className="gray text-xs md:text-base">{item.title}</p>
                     </div>

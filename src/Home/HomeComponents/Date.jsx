@@ -12,7 +12,7 @@ const Date = () => {
 
     return (
         <div className="mt-8 mb-6">
-            <div className="flex flex-col md:flex-row justify-between">
+            <div className="flex flex-col gap-3 md:flex-row justify-between">
                 <div className="">
                     <div role="tablist" className="customDiv font-semibold tabs tabs-boxed flex items-center gap-2 h-full">
                         {tabTexts.map((tab, index) => (
