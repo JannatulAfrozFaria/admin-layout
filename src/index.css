@@ -54,10 +54,17 @@ body {
     padding: 1% 3%;
 }
 /* ORDER-----SUMMARY */
+.orderDiv{
+    background-color: #f6e6ef;
+    border-radius: 0.5rem;
+    color: #a1045a;
+    border: 1px solid transparent;
+    padding:2% 4%;
+}
 .manageBtn{
     background-color: white;
     color: #a1045a;
-    padding: 2%;
+    padding: 0.4rem 0.9rem;
     border: 1px solid transparent;
     border-radius: 0.5rem;
     cursor: pointer;

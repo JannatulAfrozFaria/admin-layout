@@ -6,15 +6,17 @@ const OrderSummary = () => {
         <div className="customDiv2"
         >
             <SectionTitle title={'Current Order Summary'}></SectionTitle>
-            <div className="pendingNumber flex justify-between ">
-                <div className="flex gap-4">
+            <div className="orderDiv flex justify-between items-center ">
+                <div className="flex gap-3 items-center font-bold">
                     <div> <FiArchive /></div>
                     <div>125 new Orders!</div>
                 </div>
                 <div>
-                    <button className=" manageBtn">Manage Orders</button>
+                    <button className="manageBtn">Manage Orders</button>
                 </div>
             </div>
+            {/* ORDER-DATA------- */}
+            <div className="grid grid-cols-4 gap-4"></div>
         </div>
     );
 };
