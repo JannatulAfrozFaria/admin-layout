@@ -41,7 +41,7 @@ const OrderSummary = () => {
                                 <p>{item.title} <span className="ml-1">( {item.percentage}% )</span> </p>
                                 <p className="gray">{item.number} </p>
                             </div>
-                            <progress className="progress progress-success w-56" value={0} max="100"></progress>
+                            <progress className="progress progress-success w-56" value={item.value} max="100"></progress>
                         </div>
                     ))}
                 </div>
