@@ -40,9 +40,9 @@ const OrderSummary = () => {
             <div className="orderDiv flex justify-between items-center my-4">
                 <div className="flex gap-3 items-center font-bold">
                     <FiArchive />
-                    <span>125 new Orders!</span>
+                    <span>125 new orders!</span>
                 </div>
-                <button className="manageBtn">Manage Orders</button>
+                <button className="manageBtn">Manage Order</button>
             </div>
             {/* ORDER-DATA------- */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
