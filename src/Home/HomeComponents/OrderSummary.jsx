@@ -39,7 +39,9 @@ const OrderSummary = () => {
             </div>
             {/* PI-------CHART */}
             <div className="my-6 grid grid-cols-2 gap-4">
-                <div></div>
+                <div className="chart-container">
+                    <canvas className="my-chart"></canvas>
+                </div>
                 <div className="grid grid-cols-1 gap-1">
                     {OrderStats.map(item => (
                         <div key={item.id}>
