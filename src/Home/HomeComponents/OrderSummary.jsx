@@ -3,10 +3,10 @@ import { FiArchive } from "react-icons/fi";
 
 const OrderSummary = () => {
     const OrderStats = [
-        { id: 1, title: 'Active', number: 389, percentage: 43, value: 80 },
-        { id: 2, title: 'Pending', number: 125, percentage: 20, value: 36 },
-        { id: 3, title: 'Refunded', number: 234, percentage: 37, value: 65 },
-        { id: 4, title: 'Cancelled', number: 234, percentage: 37, value: 65 },
+        { id: 1, title: 'Active', number: 389, percentage: 43, value: 80, color: '#00997e' },
+        { id: 2, title: 'Pending', number: 125, percentage: 20, value: 36, color: '#41a3ff' },
+        { id: 3, title: 'Refunded', number: 234, percentage: 37, value: 65, color: '#ffa133' },
+        { id: 4, title: 'Cancelled', number: 234, percentage: 37, value: 65, color: '#ff1717' },
     ];
     return (
         <div className="customDiv2"
@@ -41,7 +41,7 @@ const OrderSummary = () => {
                                 <p>{item.title} <span className="ml-1">( {item.percentage}% )</span> </p>
                                 <p className="gray">{item.number} </p>
                             </div>
-                            <progress className="progress progress-success w-56" value={item.value} max="100"></progress>
+                            <progress className={`progress  w-56 text-[${item.color}]`} value={item.value} max="100"></progress>
                         </div>
                     ))}
                 </div>
